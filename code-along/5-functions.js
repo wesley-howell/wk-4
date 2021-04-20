@@ -34,3 +34,15 @@ let classicMovies = [
   { title: `The Maltese Falcon`, quote: `The stuff that dreams are made of.` },
   { title: `Cool Hand Luke`, quote: `What we've got here is failure to communicate.` },
 ]
+
+// Loop through the classicMovies array
+for (let i=0; i < classicMovies.length; i++) {
+  // store each item in the array memory
+  let movie = classicMovies[i]
+
+  // create sentence to be written out to JS console
+  let sentence = `"${movie.quote}" is a quote from ${movie.title}.`
+
+  // write the sentence to the JS console
+  console.log(sentence)
+}
