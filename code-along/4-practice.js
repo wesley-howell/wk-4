@@ -25,7 +25,7 @@ let blockchain = [
 
 console.log(`=== RECIPE #1 ===`)
 for (let i = 0; i < blockchain.length; i++) {
-  console.log(`${blockchain.fromUser[i]} transferred ${blockchain.toUser[i]} ${blockchain.amount[i]}`)
+  console.log(`${blockchain[i].fromUser} transferred ${blockchain[i].toUser} ${blockchain[i].amount}`)
 }
 // Recipe (algorithm) #1: One line of code inside the loop
 // - write each Object in the blockchain to the JavaScript console using a single line of code
